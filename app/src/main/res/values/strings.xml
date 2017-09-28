@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">AffilinetAdvertiserDemo</string>
+    <string name="click_html" translatable="false"><![CDATA[
+    <html>
+        <head></head>
+        <body>
+            <script type=\'text/javascript\' src=\'http://%s/click.asp?ref=%d&js=1&site=%d&b=1\'></script>
+        </body>
+    </html>
+    ]]>
+    </string>
+</resources>
