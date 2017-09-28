@@ -84,7 +84,7 @@ public class MainActivity extends Activity {
 
     }
 
-    int mAccountId = 123; // Please replace with your PROGRAM-ID
+    int mAccountId = {PROGRAM-ID}; // Please replace with your PROGRAM-ID
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -95,7 +95,7 @@ public class MainActivity extends Activity {
         Account account = new AdvertiserAccount(ids);
         Session session = Session.getInstance();
         try {
-            session.open(getApplicationContext(), account, Platform.DE); // Please replace with your country code
+            session.open(getApplicationContext(), account, {PLATFORM-ID}); // Please replace with your country code
         } catch (Exception e) {
             Log.v(TAG, e.getMessage());
         }
